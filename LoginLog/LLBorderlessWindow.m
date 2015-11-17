@@ -21,5 +21,8 @@
                                 defer:flag];
     return self;
 }
+- (IBAction)continue:(NSButton *)sender {
+    
+}
 
 @end

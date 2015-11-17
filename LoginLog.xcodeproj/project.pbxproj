@@ -147,6 +147,11 @@
 				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Göteborgs universitet";
+				TargetAttributes = {
+					666278B416E627480054E8EB = {
+						DevelopmentTeam = E65JKJ5372;
+					};
+				};
 			};
 			buildConfigurationList = 666278B016E627480054E8EB /* Build configuration list for PBXProject "LoginLog" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,6 +291,8 @@
 		666278D616E627490054E8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginLog/LoginLog-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -299,6 +306,7 @@
 					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -306,6 +314,8 @@
 		666278D716E627490054E8EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginLog/LoginLog-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -319,6 +329,7 @@
 					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
